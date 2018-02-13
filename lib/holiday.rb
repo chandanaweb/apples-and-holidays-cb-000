@@ -46,7 +46,6 @@ def all_winter_holiday_supplies(holiday_hash)
   new_list =[];
   holiday_supplies_list = holiday_hash[:winter]
   holiday_supplies_list.values.flatten
-
 end
 
 def all_supplies_in_holidays(holiday_hash)
