@@ -63,9 +63,8 @@ def all_supplies_in_holidays(holiday_hash)
        new_list.push(new_arr.capitalize!)
       end
    new_str = " "
-
    new_str = "  " + new_list.join(" ")<< ":" <<" "<< value.join(", ")
-   puts new_str
+   puts new_list
   end
  end
 end
