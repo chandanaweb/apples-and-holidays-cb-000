@@ -58,8 +58,9 @@ def all_supplies_in_holidays(holiday_hash)
    puts "#{season.capitalize}:"
    holiday.each do |attribute,value|
      new_arrs = attribute.to_s.split
+     new_list=[]
      new_arrs.collect do |new_arr|
-       new_arr.capitalize!
+       new_list.push(new_arr.capitalize!)
      new_str = " "
      new_str = "  " + attribute<< ":" <<" "<< value.join(", ")
      puts new_str
