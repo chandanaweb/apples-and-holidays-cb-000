@@ -64,8 +64,7 @@ def all_supplies_in_holidays(holiday_hash)
       end
    new_str = " "
    new_str = "  " + new_list.join(" ") << ":" <<" "<< value.join(", ")
-   puts new_list.join(" ")
-   #puts new_str
+   puts new_str
   end
  end
 end
