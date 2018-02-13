@@ -61,10 +61,10 @@ def all_supplies_in_holidays(holiday_hash)
      new_list=[]
      new_arrs.collect do |new_arr|
        new_list.push(new_arr.capitalize!)
-     new_str = " "
-     new_str = "  " + attribute<< ":" <<" "<< value.join(", ")
-     puts new_str
    end
+   new_str = " "
+   new_str = "  " + attribute<< ":" <<" "<< value.join(", ")
+   puts new_str
   end
  end
 end
